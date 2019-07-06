@@ -1,0 +1,8 @@
+[Unit]
+Description=wifi
+
+[Service]
+ExecStart=modprobe brcmfmac
+
+[Install]
+WantedBy=multi-user.target
